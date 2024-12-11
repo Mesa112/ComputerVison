@@ -39,10 +39,8 @@ All implementations work with images in .txt format to focus on the mathematical
 | Hough Transform | Edge Detection using Sobel Operator | Gaussian Smoothing |
 |-----------------|-------------------------------------|--------------------|
 | <img src="https://i.sstatic.net/7XbC8.png" width="300" alt="Hough Transform Example"> | <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*4lPMjSPaS2JLWZAaYrXr2Q.jpeg" width="300" alt="Sobel Edge Detection"> | <img src="https://ars.els-cdn.com/content/image/3-s2.0-B9780123965493000033-f03-42-9780123965493.jpg" width="300" alt="Gaussian Smoothing"> |
+| Converts edge points to sinusoidal curves in parameter space, enabling robust line detection. | Sobel operator calculates gradient magnitude and direction. | Demonstrates the effect of different kernel sizes on noise reduction. |
 
-- **Hough Transform**: Converts edge points to sinusoidal curves in parameter space, enabling robust line detection.
-- **Edge Detection**: Sobel operator calculates gradient magnitude and direction.
-- **Gaussian Smoothing**: Demonstrates the effect of kernel sizes on noise reduction.
 
 
 ## Project Structure
@@ -116,6 +114,3 @@ Contributions to improve implementations or add new algorithms are welcome:
 4. Push to the branch
 5. Create a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
